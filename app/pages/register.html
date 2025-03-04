@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="register.js" defer></script>
+    <title>Register</title>
+</head>
+<body>
+    <main>
+        <div class="form-container">
+            <h1>Register</h1>
+            <p>Create your account to enter the administration area.</p>
+            <form id="register-form">
+                <!--Username-->
+                <label for="user" class="sr-only">User</label>
+                <input type="text" name="user" id="user" placeholder="Username">
+                <!--Email-->
+                <label for="email" class="sr-only">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+                <!--Password-->
+                <label for="password" class="sr-only">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password">
+                <!--Login button-->
+                <button type="submit">Register</button>
+                <p class="error hidden">Failed to Register</p>
+            </form>
+            <p>Are you already registered? <a href="/">Login</a></p>
+        </div>
+    </main>
+</body>
+</html>

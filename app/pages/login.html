@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="/login.js" defer></script>
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <div class="form-container">
+            <h1>Login</h1>
+            <p>Enter your credentials to access the administration area.</p>
+            <form id="login-form">
+                <!--Username-->
+                <label for="user" class="sr-only">User</label>
+                <input type="text" name="user" id="user" placeholder="Username">
+                <!--Password-->
+                <label for="password" class="sr-only">Password</label>
+                <input type="password" name="password" id="password" placeholder="Password">
+                <!--Login button-->
+                <button type="submit">Login</button>
+                <p class="error hidden">Failed to login</p>
+            </form>
+            <p>Do you have an account? <a href="/register">Register</a></p>
+        </div>
+    </main>
+</body>
+</html>
