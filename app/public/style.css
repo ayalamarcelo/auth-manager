@@ -1,8 +1,5 @@
 html {
-	background-image: url(./geometric-shapes-background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(to top right, #e72f77, #833d7a);
 }
 
 body {
@@ -14,6 +11,7 @@ body {
     min-height: 100svh;/*Smaller version available of the screen height.*/
     font-size: medium;
 }
+
 
 .form-container {
     width: 500px;
@@ -40,9 +38,8 @@ input, button {
 }
 
 button {
-    background-color: #742f8c;
+    background-color: #4572d9;
     color: #fff;
-    font-weight: 500;
     cursor: pointer;
 }
 
